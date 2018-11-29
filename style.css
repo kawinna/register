@@ -9,7 +9,7 @@ html {
 	/*Image only BG fallback*/
 	
 	/*background = gradient + image pattern combo*/
-	<img src="home-bg.jpg">
+	background-color: rgba(15, 96, 121, 1);
 	
 }
 

@@ -10,7 +10,7 @@ html {
 	
 	/*background = gradient + image pattern combo*/
 	background: 
-		linear-gradient(rgba(15, 96, 121, 1), rgba(19, 126, 146, 1));
+		linear-gradient(60deg, #abecd6 0%, #fbed96 100%);
 	background-attachment: fixed;
 }
 

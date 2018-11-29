@@ -11,7 +11,10 @@ html {
 	/*background = gradient + image pattern combo*/
 	background: 
 		linear-gradient(rgba(15, 96, 121, 1), rgba(19, 126, 146, 1));
-  		background-attachment: fixed;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 body {

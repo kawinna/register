@@ -9,7 +9,7 @@ html {
 	/*Image only BG fallback*/
 	
 	/*background = gradient + image pattern combo*/
-	linear-gradient(rgba(15, 16, 121, 1), rgba(19, 126, 146, 1));
+	linear-gradient(#0F6079, #137E95, #BADEC9);
   		background-attachment: fixed;
 		background-repeat: no-repeat;
 	

@@ -5,14 +5,12 @@
 * {margin: 0; padding: 0;}
 
 html {
-
+	height: 100%;
 	/*Image only BG fallback*/
 	
 	/*background = gradient + image pattern combo*/
 	background: 
-		linear-gradient(rgba(15, 96, 121), rgba(19, 126, 149), rgba(186, 222, 201));
-		background-attachment: fixed;
-		background-repeat: no-repeat;
+		linear-gradient(rgba(196, 102, 0, 0.6), rgba(155, 89, 182, 0.6));
 }
 
 body {
@@ -24,7 +22,7 @@ body {
 	margin: 50px auto;
 	text-align: center;
 	position: relative;
-} 
+}
 #msform fieldset {
 	background: white;
 	border: 0 none;
@@ -43,11 +41,6 @@ body {
 	display: none;
 }
 /*inputs*/
-p {
-	font-family: montserrat;
-	color: #2C3E50;
-	font-size: 13px;
-}
 #msform input, #msform textarea {
 	padding: 15px;
 	border: 1px solid #ccc;
@@ -62,7 +55,7 @@ p {
 /*buttons*/
 #msform .action-button {
 	width: 100px;
-	background: #137e95;
+	background: #27AE60;
 	font-weight: bold;
 	color: white;
 	border: 0 none;
@@ -72,7 +65,7 @@ p {
 	margin: 10px 5px;
 }
 #msform .action-button:hover, #msform .action-button:focus {
-	box-shadow: 0 0 0 2px white, 0 0 0 3px #0f6079;
+	box-shadow: 0 0 0 2px white, 0 0 0 3px #27AE60;
 }
 /*headings*/
 .fs-title {
@@ -133,7 +126,7 @@ p {
 /*marking active/completed steps green*/
 /*The number of the step and the connector before it = green*/
 #progressbar li.active:before,  #progressbar li.active:after{
-	background: #de6538;
+	background: #27AE60;
 	color: white;
 }
 

@@ -9,8 +9,8 @@ html {
 	/*Image only BG fallback*/
 	
 	/*background = gradient + image pattern combo*/
-	background: 
-		
+	background-image: url('https://github.com/kawinna/image06/blob/master/home-bg.jpg');
+	
 }
 
 body {

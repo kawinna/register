@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+	<title>ลงทะเบียน</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/png" href="assets/home/images/fav.png">
+
+	<link rel="stylesheet" href="assets/regist/style.css">
+
+</head>
+
+<body>
+	<!-- multistep form -->
+	<form id="msform">
+		<!-- progressbar -->
+		<ul id="progressbar">
+			<li class="active">สร้างบัญชี</li>
+			<li>ข้อมูลทั่วไป</li>
+			<li>ข้อมูลสำคัญ</li>
+		</ul>
+		<!-- fieldsets -->
+		<fieldset>
+			<h2 class="fs-title">สร้างบัญชี</h2>
+			<h3 class="fs-subtitle">ขั้นตอนที่ 1</h3>
+			<input type="text" name="username" placeholder="Username" />
+			<input type="password" name="pass" placeholder="Password" />
+			<input type="password" name="cpass" placeholder="Confirm Password" />
+			<input type="button" name="next" class="next action-button" value="Next" />
+		</fieldset>
+		<fieldset>
+			<h2 class="fs-title">ข้อมูลทั่วไป</h2>
+			<h3 class="fs-subtitle">ขั้นตอนที่ 2</h3>
+			<input type="text" name="๊Username" placeholder="ชื่อผู้ใช้" />
+			<input type="text" name="๊Password" placeholder="รหัสผ่าน" />
+			<input type="text" name="๊Name" placeholder="ชื่อ-สกุล" />
+			<textarea name="address" placeholder="ที่อยู่"></textarea>
+			<input list="region" name="region" placeholder="ภูมิภาคที่อาศัย">
+				<datalist id="region">
+					<option value="ภาคกลาง">
+					<option value="ภาคเหนือ">
+					<option value="ภาคตะวันออกเฉียงเหนือ">
+					<option value="ภาคตะวันออก">
+					<option value="ภาคตะวันตก">
+					<option value="ภาคใต้">
+				</datalist>
+			<input list="province" name="province" placeholder="จังหวัด">
+				<datalist id="province">
+					<option value="กทม.">
+					<option value="สงขลา">
+					<option value="สตูล">
+				</datalist>
+			<input list="district" name="district" placeholder="อำเภอ">
+				<datalist id="district">
+					<option value="หาดใหญ่">
+					<option value="บางกล่ำ">
+					<option value="เมือง">
+				</datalist>
+			<input list="canton" name="canton" placeholder="ตำบล">
+				<datalist id="canton">
+					<option value="ท่าช้าง">
+					<option value="ควนลัง">
+					<option value="หาดใหญ่">
+					<option value="คลองแห">
+				</datalist>
+			<input type="text" name="๊Tel" placeholder="เบอร์โทรศัพท์" />
+			<input type="text" name="๊Email" placeholder="อีเมล์" />
+			<input type="button" name="previous" class="previous action-button" value="Previous" />
+			<input type="button" name="next" class="next action-button" value="Next" />
+		</fieldset>
+		<fieldset>
+			<h2 class="fs-title">ข้อมูลสำคัญ</h2>
+			<h3 class="fs-subtitle">ขั้นตอนที่ 3</h3>
+			<input type="text" name="licenseplate" placeholder="เลขทะเบียนรถจักรยานยนต์" />
+			<input type="text" name="bankAcc" placeholder="เลขบัญชีธนาคาร" />
+			<p>เอกสารใบขับขี่:</p><input type="file" name="driverlicense"/>
+			<p>พรบ.รถจักยานยนต์:</p><input type="file" name="actingdriver"/>
+			<p>บัญชีธนาคาร:</p><input type="file" name="bookbank"/>
+			<input type="button" name="previous" class="previous action-button" value="Previous" />
+			<input type="submit" name="submit" class="submit action-button" value="Submit" onclick='location.replace("driverhome.html")'/>
+		</fieldset>
+	</form>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+	<script src="assets/regist/main.js"></script>
+
+</body>
+
+</html>

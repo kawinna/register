@@ -81,3 +81,8 @@ $(".previous").click(function () {
 $(".submit").click(function () {
 	return false;
 })
+function myFunction() {
+	alert("รอผู้ดูแลระบบตรวจสอบเอกสาร เพื่อยืนยันการสมัครสมาชิก ขอบคุณที่เข้าร่วมเป็นส่วนหนึ่งของเรา");
+	window.location.href = "driverhome.html";
+}
+
